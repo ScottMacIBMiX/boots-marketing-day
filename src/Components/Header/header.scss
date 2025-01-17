@@ -1,0 +1,19 @@
+.diageo-soi-header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  &__logo {
+    flex: 1;
+    img {
+      float: right;
+    }
+  }
+  &__secondary-logo {
+    padding-top: 0.3rem;
+    flex: 1;
+  }
+}

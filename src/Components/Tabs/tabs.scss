@@ -1,0 +1,50 @@
+.tabs {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0.75rem;
+  background-color: #0043ce;
+  margin-top: 1.5rem;
+  position: sticky;
+  top: 42px;
+
+  a {
+    width: 33.333%;
+
+    .tab {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border-radius: 0.75rem;
+      height: 100%;
+      padding: 0.75rem 1rem;
+      color: #ffffff;
+
+      &:hover {
+        background-color: #84acf4;
+      }
+
+      &.active {
+        background-color: #0851e7;
+        transform: scale(1.1);
+        transform-origin: center;
+        color: #ffffff;
+      }
+
+      .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0.25rem;
+        color: #0043ce;
+      }
+
+      span {
+        font-size: 0.75rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.diageo-soi-speaker-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .diageo-soi-agenda-speaker__item {
+    width: 100%;
+    max-width: 640px;
+  }
+}

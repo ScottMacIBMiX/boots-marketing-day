@@ -1,0 +1,20 @@
+.message-main {
+  overflow-y: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 2rem 2rem 0 2rem;
+}
+
+.tabs-container {
+  display: flex;
+  justify-content: center;
+}
+
+.scrollable-container {
+  color: #0043ce;
+  margin-top: 2rem;
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+}

@@ -1,0 +1,87 @@
+.diageo-soi-agenda-item-container {
+  background-color: #0043ce;
+  border-radius: 0.9375rem;
+  margin-bottom: 2rem;
+  color: #ffffff;
+  max-width: 640px;
+}
+
+.diageo-soi-agenda-item {
+  min-height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 0;
+
+  &__time {
+    flex: 1;
+    text-align: center;
+    min-width: 15%;
+    margin-left: 5%;
+    font-size: 1.3rem;
+  }
+
+  &__break {
+    border-left: 0.0625rem solid #ffffff;
+    height: 4.125rem;
+    margin: 0 4%;
+  }
+
+  &__event {
+    min-width: 72%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__title {
+      font-size: 0.9rem;
+      padding-bottom: 0.3rem;
+    }
+
+    &__details {
+      width: 85%;
+    }
+
+    &__subtitle {
+      padding-bottom: 0.3rem;
+      font-size: 0.675rem;
+    }
+
+    &__speaker {
+      font-size: 0.675rem;
+    }
+  }
+
+  &__plus {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    justify-content: right;
+    align-items: center;
+
+    &__padding {
+      margin-right: 30%;
+    }
+  }
+
+  &__accordion-panel {
+    &__closed {
+      padding: 0 1.125rem;
+      display: none;
+      overflow: hidden;
+    }
+
+    &__open {
+      padding: 0 2rem;
+      padding-bottom: 1rem;
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      margin-top: 0.625rem;
+
+      p {
+        font-size: 0.825rem;
+      }
+    }
+  }
+}

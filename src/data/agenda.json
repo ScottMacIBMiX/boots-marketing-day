@@ -1,0 +1,128 @@
+[
+  {
+    "sessionTitle": "Registration and Networking Breakfast",
+    "sessionLocation": "IBM Innovation Studio - Floor 5",
+    "sessionTime": "09:30",
+    "sessionSpeaker": "",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "Prelude to Precision: Welcome",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "10:00",
+    "sessionSpeaker": "Danny Bagge, Pete Markey & Sat Mundi",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "Alice through the AI Looking Glass",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "10:10",
+    "sessionSpeaker": "Danny Fontaine",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "Gen AI Showcase: A Glimpse into the Future",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "10:20",
+    "sessionSpeaker": "Chris Hay",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "Commerce Comes Alive! When Content Talks Back",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "10:50",
+    "sessionSpeaker": "Mary Wallace",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "App-roaching Perfection: Content Creation and Gen AI",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "11:20",
+    "sessionSpeaker": "Tony Storr & Hugh Griffith",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "Coffee Break",
+    "sessionLocation": "Floor 5",
+    "sessionTime": "11:50",
+    "sessionSpeaker": "",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "The Personal Touch, at Speed: Mastering the Content Supply Chain",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "12:05",
+    "sessionSpeaker": "Dan Bowes",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "Outstanding Convenience: The Art of Effortless Order Management and Fulfillment",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "12:25",
+    "sessionSpeaker": "Justin Ablett & Emma Flinter",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "Lunch & Demos",
+    "sessionLocation": "Floor 5",
+    "sessionTime": "12:45",
+    "sessionSpeaker": "",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "Retail Offer Transformation – Growing Customer Value Update",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "13:30",
+    "sessionSpeaker": "Sat Mundi",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "With a little help from my Agentic Friends",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "13:50",
+    "sessionSpeaker": "Jez Bassinder",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "The Next Best Thing - Ideation",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "14:15",
+    "sessionSpeaker": "Breakout session, group ideation",
+    "isQuestionable": true
+  },
+ {
+    "sessionTitle": "Coffee Break",
+    "sessionLocation": "Floor 5",
+    "sessionTime": "15:30",
+    "sessionSpeaker": "",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "The Next Best Thing - Pitches",
+    "sessionLocation": "Maple/Mulberry - Floor 5",
+    "sessionTime": "15:40",
+    "sessionSpeaker": "Pitch to judges",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "Putting it into Action ",
+    "sessionLocation": "Floor 5",
+    "sessionTime": "16:10",
+    "sessionSpeaker": "Sat Mundi & Danny Fontaine",
+    "isQuestionable": false
+  },
+  {
+    "sessionTitle": "Wrap Up",
+    "sessionLocation": "Floor 5",
+    "sessionTime": "16:30",
+    "sessionSpeaker": "Danny Bagge, Pete Markey & Sat Mundi",
+    "isQuestionable": false
+  },
+  {
+    "sessionTitle": "Drinks & Networking",
+    "sessionLocation": "Floor 5",
+    "sessionTime": "16:40",
+    "sessionSpeaker": "",
+    "isQuestionable": false
+  }
+]
