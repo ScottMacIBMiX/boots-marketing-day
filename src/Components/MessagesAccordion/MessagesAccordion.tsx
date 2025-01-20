@@ -17,24 +17,7 @@ const MessagesAccordion = () => {
   return (
     <div className={`messages-accordion ${IBMPlexSans.className}`}>
       <div className="accordion-item">
-        <h2 className="accordion-header" id="accordion-flush-heading-1">
-          <button
-            type="button"
-            aria-expanded={true}
-            aria-controls="accordion-flush-body-1"
-            onClick={() => handleAccordionClick(0)}
-          >
-            <span>Submit Vote</span>
-            <AccordionArrow isActive={activeIndex === 0} />
-          </button>
-        </h2>
-        <div
-          id="accordion-flush-body-1"
-          className={`accordion-content ${activeIndex === 0 ? "active" : ""}`}
-          aria-labelledby="accordion-flush-heading-1"
-        >
-          <FormComponent formType="question" />
-        </div>
+        <FormComponent formType="question" />
       </div>
     </div>
   );

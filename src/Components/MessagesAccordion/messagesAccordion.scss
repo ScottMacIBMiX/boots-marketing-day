@@ -2,7 +2,9 @@
   margin-top: 1.5rem;
   align-items: center;
   .accordion-item {
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
     .accordion-header {
       button {
         display: flex;

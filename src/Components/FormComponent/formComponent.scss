@@ -1,9 +1,21 @@
 $blue-color: #0606A0;
-
+.title_vote{
+  font-size: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info_vote{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 500px;
+  width: 100%;
+  max-width: 1000px;
 }
 
 .button-container {
