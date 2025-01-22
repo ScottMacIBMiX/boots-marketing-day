@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./formComponent.scss";
-import events from "../../data/agenda.json";
+//import events from "../../data/agenda.json";
 import base from "../../utils/airtable";
 
 interface FormProps {
@@ -92,17 +92,17 @@ const FormComponent: React.FC<FormProps> = ({ formType }) => {
             {event.sessionTime} - {event.sessionTitle}
             </option>
             ))} */}
-          <option key="A" value="A">
-            Option A - Some Pitch Description Here
+          <option key="Session A" value="Session A">
+            Session A - Test Session A
           </option>
-          <option key="B" value="B">
-            Option B - Some Pitch Description Here
+          <option key="Session B" value="Session B">
+          Session B - Test Session B
           </option>
-          <option key="C" value="C">
-            Option C - Some Pitch Description Here
+          <option key="Session C" value="Session C">
+            Session C - Test Session C
           </option>
-          <option key="D" value="D">
-            Option D - Some Pitch Description Here
+          <option key="Session D" value="Session D">
+            Session D - Test Session D
           </option>
         </select>
 
