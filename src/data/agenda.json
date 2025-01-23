@@ -8,43 +8,43 @@
   },
   {
     "sessionTitle": "Prelude to Precision: Welcome",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "10:00",
-    "sessionSpeaker": "Danny Bagge, Pete Markey & Sat Mundi",
+    "sessionSpeaker": "Danny Bagge & Sat Mundi",
     "isQuestionable": true
   },
   {
     "sessionTitle": "Alice through the AI Looking Glass",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "10:10",
     "sessionSpeaker": "Danny Fontaine",
     "isQuestionable": true
   },
   {
     "sessionTitle": "Gen AI Showcase: A Glimpse into the Future",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "10:20",
     "sessionSpeaker": "Chris Hay",
     "isQuestionable": true
   },
   {
     "sessionTitle": "Commerce Comes Alive! When Content Talks Back",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "10:50",
     "sessionSpeaker": "Mary Wallace",
     "isQuestionable": true
   },
   {
     "sessionTitle": "App-roaching Perfection: Strategies for Retail App Success",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "11:20",
     "sessionSpeaker": "Tony Storr",
     "isQuestionable": true
   },
   {
     "sessionTitle": "Think Outside the Bot: Content Creation and Gen AI",
-    "sessionLocation": "Beech/Cedar - Floor 5",
-    "sessionTime": "11:20",
+    "sessionLocation": "The Cube - Floor 5",
+    "sessionTime": "11:35",
     "sessionSpeaker": " Hugh Griffith",
     "isQuestionable": true
   },
@@ -58,14 +58,14 @@
   },
   {
     "sessionTitle": "The Personal Touch, at Speed: Mastering the Content Supply Chain",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "12:05",
     "sessionSpeaker": "Dan Bowes",
     "isQuestionable": true
   },
   {
     "sessionTitle": "Outstanding Convenience: The Art of Effortless Order Management and Fulfillment",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "12:25",
     "sessionSpeaker": "Justin Ablett & Emma Flinter",
     "isQuestionable": true
@@ -79,21 +79,21 @@
   },
   {
     "sessionTitle": "Retail Offer Transformation – Growing Customer Value Update",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "13:30",
     "sessionSpeaker": "Sat Mundi",
     "isQuestionable": true
   },
   {
     "sessionTitle": "With a little help from my Agentic Friends",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "13:50",
     "sessionSpeaker": "Jez Bassinder",
     "isQuestionable": true
   },
   {
     "sessionTitle": "The Next Best Thing - Ideation",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "14:15",
     "sessionSpeaker": "Breakout session, group ideation",
     "isQuestionable": true
@@ -107,21 +107,21 @@
   },
   {
     "sessionTitle": "The Next Best Thing - Pitches",
-    "sessionLocation": "Beech/Cedar - Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "15:40",
     "sessionSpeaker": "Pitch to judges",
     "isQuestionable": true
   },
   {
     "sessionTitle": "Putting it into Action ",
-    "sessionLocation": "Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "16:10",
     "sessionSpeaker": "Sat Mundi & Danny Fontaine",
     "isQuestionable": false
   },
   {
     "sessionTitle": "Wrap Up",
-    "sessionLocation": "Floor 5",
+    "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "16:30",
     "sessionSpeaker": "Danny Bagge, Pete Markey & Sat Mundi",
     "isQuestionable": false
