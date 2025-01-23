@@ -7,6 +7,7 @@ import "./tabs.scss";
 import SpeakersIcon from "../../modules/tabIcons/SpeakersIcon";
 import AgendaIcon from "../../modules/tabIcons/AgendaIcon";
 import MessagesIcon from "../../modules/tabIcons/MessagesIcon";
+import GraphIcon from "@/modules/tabIcons/GraphIcon";
 
 const IBMPlexSans = localFont({ src: "../../fonts/IBMPlexSans-Regular.ttf" });
 
@@ -26,6 +27,11 @@ const Tabs = () => {
   const handleMessagesClick = (e: any) => {
     e.preventDefault();
     window.location.href = "/info/message";
+  };
+
+  const handleResultsClick = (e: any) => {
+    e.preventDefault();
+    window.location.href = "/info/results";
   };
 
   return (
@@ -63,6 +69,17 @@ const Tabs = () => {
             <MessagesIcon selected={pathname === "/info/message"}/>
           </div>
           <span>Vote</span>
+        </div>
+      </Link>
+      <Link href="/info/results">
+        <div
+          className={`tab ${pathname === "/info/results" ? "active" : ""}`}
+          onClick={handleResultsClick}
+        >
+          <div className="icon">
+            <GraphIcon/>
+          </div>
+          <span>Results</span>
         </div>
       </Link>
     </div>
