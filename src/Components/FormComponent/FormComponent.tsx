@@ -109,7 +109,7 @@ const FormComponent: React.FC<FormProps> = ({ formType }) => {
         <div className="error">{errors.session}</div>
 
         <label htmlFor="content" className="label">
-          Name & Comment
+        Any Comments?
         </label>
         <textarea
           id="content"

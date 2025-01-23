@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Spotify",
+    "key": "spotify",
+    "url": "https://open.spotify.com/playlist/1MoT09QYOtwQl1LNzz4hWn?si=8ozvtU_OSpy5TqPmWOR7tw"
+  },
+  {
+    "title": "IBM SkillsBuild AI",
+    "key": "IBM SkillsBuild AI",
+    "url": "https://skillsbuild.org/adult-learners/explore-learning/artificial-intelligence?lnk=bus"
+  },
+  {
+    "title": "Boots previous case study",
+    "key": "Boots previous case study",
+    "url": "https://www.ibm.com/case-studies/boots-uk-ibm-consulting"
+  },
+  {
+    "title": "L’Oreal case study",
+    "key": "L’Oreal case study",
+    "url": "https://newsroom.ibm.com/2025-01-16-ibm-and-loreal-to-build-first-ai-model-to-advance-the-creation-of-sustainable-cosmetics"
+  },
+  {
+    "title": "Virgin money AI chatbot",
+    "key": "Virgin money AI chatbot",
+    "url": "https://www.ibm.com/case-studies/virgin-money"
+  },
+  {
+    "title": "The CEO’s Guide to Generative AI",
+    "key": "The CEO’s Guide to Generative AI",
+    "url": "https://www.ibm.com/thought-leadership/institute-business-value/en-us/report/ceo-generative-ai-book"
+  },
+  {
+    "title": "IBM Institute for Business Value",
+    "key": "IBM Institute for Business Value",
+    "url": "https://www.ibm.com/thought-leadership/institute-business-value/en-us"
+  }
+]

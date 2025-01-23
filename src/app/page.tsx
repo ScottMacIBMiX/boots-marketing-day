@@ -5,7 +5,7 @@ import { IBMPlexSans } from "../fonts/fonts";
 import "./welcome-page.scss";
 import ibmLogo from "../assets/white-ibm-logo.png";
 import spotifyLogo from "../assets/spotify-logo.png";
-import youtubeLogo from "../assets/youtube-logo.png";
+import links from "../data/links.json";
 
 export default function Home() {
   const handleSubmit = (e: any) => {
@@ -15,8 +15,13 @@ export default function Home() {
 
   const handleExternalClick = (e: any) => {
     e.preventDefault();
-    window.location.href = "https://ibm.box.com/s/5cx5eurwrfixnhf113dmbrg1i5bsh3jz";
+    window.location.href =
+      "https://ibm.box.com/s/5cx5eurwrfixnhf113dmbrg1i5bsh3jz";
   };
+
+  function getEntryByKey(key: string) {
+    return links.find((entry) => entry.key);
+  }
 
   return (
     <div>
@@ -30,20 +35,43 @@ export default function Home() {
           </div>
           <div className="diageo-soi-welcome-page__button-container">
             <div className="diageo-soi-welcome-page__button-container__icons">
-            <Image src={spotifyLogo} alt={"spotify logo"} width={50} height={50}/>
-            <Image src={youtubeLogo} alt={"youtube logo"} width={50} height={50}/>
+              <a href={getEntryByKey("spotify")?.url}>
+                <Image
+                  src={spotifyLogo}
+                  alt={"spotify logo"}
+                  width={50}
+                  height={50}
+                />
+              </a>
             </div>
             <button
               type="submit"
               onClick={handleSubmit}
               className="diageo-soi-welcome-page__button"
             >
-Enter Site
+              Enter Site
             </button>
           </div>
-          <button className="diageo-soi-welcome-page__button" onClick={handleExternalClick}>
+          {/* <button
+            className="diageo-soi-welcome-page__button"
+            onClick={handleExternalClick}
+          >
             Links
-          </button>
+          </button> */}
+          <div className="diageo-soi-welcome-page__button-container">
+            <h3> Additional Links </h3>
+            {links.map((link, index) => {
+              if (link.key !== "spotify") {
+                return (
+                  <div key={link.key}>
+                    <a href={link.url}>
+                      <p>{link.title}</p>
+                    </a>
+                  </div>
+                );
+              }
+            })}
+          </div>
         </div>
       </div>
     </div>

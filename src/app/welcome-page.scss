@@ -58,6 +58,19 @@ body {
       flex-direction: row; 
       gap: 2rem;
     }
+    h3{
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+    p{
+      font-size: 12px;
+      color: #fff;
+      text-decoration: underline;
+    }
   }
 
   &__button {
