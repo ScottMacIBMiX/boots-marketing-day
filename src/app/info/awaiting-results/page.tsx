@@ -2,7 +2,7 @@
 
 import "./results-page.scss";
 import Header from "@/Components/Header/Header";
-import Tabs from "@/Components/Tabs/Tabs";
+import Tabs from "@/Components/Tabs/Tabs";  
 
 export default function Home() {
   return (

@@ -21,7 +21,9 @@ interface DataSet {
 export default function Home() {
   const inputValues: CounterObject[] = [];
   const [votes, setVotes] = useState<CounterObject[]>();
+  const [loading, setLoading] = useState<boolean>(true);
   const [seeResults, setSeeResults] = useState<boolean>();
+  const [isFirstLoad, setIsFirstLoad] = useState<boolean>();
 
   const handleRecord = async (newValue: string) => {
     let newFlag = true;
@@ -61,6 +63,19 @@ export default function Home() {
     }
     return data;
   };
+
+  useEffect(() => {
+    const timeoutId = setTimeout(() => {
+      setLoading(false);
+      setIsFirstLoad(true);
+    }, 3000);
+    return () => clearTimeout(timeoutId);
+  }, []);
+
+  const handleClick = () => {
+    setIsFirstLoad(false);
+    setSeeResults(!seeResults);
+  };
   return (
     <main className="results-main">
       <Header />
@@ -80,16 +95,21 @@ export default function Home() {
             </h1>
           </div>
           <div className="button-container">
-            <button
-              className="button"
-              onClick={() => setSeeResults(!seeResults)}
-            >
-              {seeResults ? "Hide Results" : "Reveal Results"}
-            </button>
+            {!loading ? (
+              <button className="button" onClick={handleClick}>
+                {seeResults ? "Hide Results" : "Reveal Results"}
+              </button>
+            ) : (
+              <span className="loader"></span>
+            )}
           </div>
           <div
             className={
-              votes?.length! > 0 ? (seeResults ? "tilt-in-fwd-tr" : "roll-out-left ") : "hidden"
+              votes?.length! > 0 && !isFirstLoad
+                ? seeResults
+                  ? "tilt-in-fwd-tr"
+                  : "roll-out-left "
+                : "hidden"
             }
           >
             <VictoryChart domainPadding={{ x: 20 }} theme={VictoryTheme.clean}>
@@ -97,9 +117,6 @@ export default function Home() {
             </VictoryChart>
           </div>
         </div>
-        {/*
-        <div className="results-content__bottom">Winning Team: A</div>
-        */}
       </div>
     </main>
   );
