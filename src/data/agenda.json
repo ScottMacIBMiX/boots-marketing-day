@@ -42,38 +42,37 @@
     "isQuestionable": true
   },
   {
-    "sessionTitle": "Think Outside the Bot: Content Creation and Gen AI",
-    "sessionLocation": "The Cube - Floor 5",
-    "sessionTime": "11:35",
-    "sessionSpeaker": " Hugh Griffith",
-    "isQuestionable": true
-  },
-
-  {
     "sessionTitle": "Coffee Break",
     "sessionLocation": "Floor 5",
-    "sessionTime": "11:50",
+    "sessionTime": "11:35",
     "sessionSpeaker": "",
     "isQuestionable": true
   },
   {
     "sessionTitle": "The Personal Touch, at Speed: Mastering the Content Supply Chain",
     "sessionLocation": "The Cube - Floor 5",
-    "sessionTime": "12:05",
+    "sessionTime": "11:45",
     "sessionSpeaker": "Dan Bowes",
+    "isQuestionable": true
+  },
+  {
+    "sessionTitle": "Think Outside the Bot: Content Creation and Gen AI",
+    "sessionLocation": "The Cube - Floor 5",
+    "sessionTime": "12:05",
+    "sessionSpeaker": " Hugh Griffith",
     "isQuestionable": true
   },
   {
     "sessionTitle": "Outstanding Convenience: The Art of Effortless Order Management and Fulfillment",
     "sessionLocation": "The Cube - Floor 5",
-    "sessionTime": "12:25",
+    "sessionTime": "12:20",
     "sessionSpeaker": "Justin Ablett & Emma Flinter",
     "isQuestionable": true
   },
   {
     "sessionTitle": "Lunch & Demos",
     "sessionLocation": "Floor 5",
-    "sessionTime": "12:45",
+    "sessionTime": "12:40",
     "sessionSpeaker": "",
     "isQuestionable": true
   },
@@ -116,14 +115,14 @@
     "sessionTitle": "Putting it into Action ",
     "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "16:10",
-    "sessionSpeaker": "Sat Mundi & Danny Fontaine",
+    "sessionSpeaker": "Sat Mundi, Danny Fontaine & Danny Bagge",
     "isQuestionable": false
   },
   {
     "sessionTitle": "Wrap Up",
     "sessionLocation": "The Cube - Floor 5",
     "sessionTime": "16:30",
-    "sessionSpeaker": "Danny Bagge, Pete Markey & Sat Mundi",
+    "sessionSpeaker": "Danny Bagge & Sat Mundi",
     "isQuestionable": false
   },
   {
