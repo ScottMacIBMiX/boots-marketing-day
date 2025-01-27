@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./formComponent.scss";
-//import events from "../../data/agenda.json";
 import base from "../../utils/airtable";
 
 interface FormProps {
@@ -52,6 +51,26 @@ const FormComponent: React.FC<FormProps> = ({ formType }) => {
     }
   };
 
+  const handleTeamNameSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (validateForm()) {
+      try {
+        await base(`Team Names`).create({
+          name: content,
+        });
+
+        // Clear the form after successful submission
+        setSelectedSession("");
+        setContent("");
+        setErrors({});
+        setIsSubmitted(true);
+      } catch (error) {
+        console.error(`Error submitting form data to Airtable:`, error);
+      }
+    }
+  };
+
   useEffect(() => {
     let timer: NodeJS.Timeout;
     if (isSubmitted) {
@@ -64,6 +83,23 @@ const FormComponent: React.FC<FormProps> = ({ formType }) => {
       clearTimeout(timer);
     };
   }, [isSubmitted]);
+  
+
+  // useEffect(() => {
+  //   let namesList=[];
+  //   try {
+  //     base(`Team Name`)
+  //       .select()
+  //       .eachPage((records) => {
+  //         console.log("🚀 ~ .eachPage ~ records:", records)
+  //         records.forEach((record) =>
+  //           namesList.push(record)
+  //         );
+  //       });
+  //   } catch (error) {
+  //     console.error(`Error retrieving form data from Airtable:`, error);
+  //   }
+  // }, []);
 
   return (
     <div>
@@ -109,7 +145,7 @@ const FormComponent: React.FC<FormProps> = ({ formType }) => {
         <div className="error">{errors.session}</div>
 
         <label htmlFor="content" className="label">
-        Any Comments?
+        Any Comments? Please comment N/A if no comment wanted.
         </label>
         <textarea
           id="content"
@@ -129,6 +165,34 @@ const FormComponent: React.FC<FormProps> = ({ formType }) => {
           )}
         </div>
       </form>
+      {/* <div className="title_vote">
+      <h1>Submit your team name!</h1>
+      </div>
+      <div className="info_vote">
+      <h1>Please use the form below to submit a team name for your groups pitch. After submitting you should see your team name appear in the submit your vote section after page refresh.</h1>
+      </div>
+      <form className="form" onSubmit={handleTeamNameSubmit}>
+        <label htmlFor="content" className="label">
+        Team Name
+        </label>
+        <textarea
+          id="content"
+          value={content}
+          onChange={(e) => setContent(e.target.value)}
+          className="textarea"
+        />
+        <div className="error">{errors.content}</div>
+
+        <div className="button-container">
+          {isSubmitted ? (
+            <div className="thank-you-message">Thank you for your team name submission!</div>
+          ) : (
+            <button type="submit" className="button">
+              Submit
+            </button>
+          )}
+        </div>
+      </form> */}
     </div>
   );
 };

@@ -14,11 +14,11 @@ export default function Home() {
       <div className="results-content">
         <div className="results-content__top">
           <div className="title_vote">
-            <h1>Awaiting Results</h1>
+            <h1>Voting Closed</h1>
           </div>
           <div className="info_vote">
             <h1>
-             Please check back in a few minutes the votes are still being collected. In the meantime why not take a look at some of our <a href="https://www.ibm.com/blog/category/client-stories/">IBM Client Stories</a>?
+             Please check back in a few minutes our voting is not yet open or is having downtime right now, our event co-ordinator should let you know when this page will be active. In the meantime why not take a look at some of our <a href="https://www.ibm.com/blog/category/client-stories/">IBM Client Stories</a>?
             </h1>
           </div>
           </div>

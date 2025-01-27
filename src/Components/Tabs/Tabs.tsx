@@ -31,7 +31,7 @@ const Tabs = () => {
 
   const handleResultsClick = (e: any) => {
     e.preventDefault();
-    window.location.href = "/info/results";
+    window.location.href = "/info/voting-closed";
   };
 
   return (
@@ -71,9 +71,9 @@ const Tabs = () => {
           <span>Vote</span>
         </div>
       </Link>
-      <Link href="/info/results">
+      <Link href="/info/voting-closed">
         <div
-          className={`tab ${pathname === "/info/results" ? "active" : ""}`}
+          className={`tab ${pathname === "/info/voting-closed" ? "active" : ""}`}
           onClick={handleResultsClick}
         >
           <div className="icon">
