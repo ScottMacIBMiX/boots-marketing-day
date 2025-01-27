@@ -134,11 +134,11 @@ const FormComponent: React.FC<FormProps> = ({ formType }) => {
           <option key="Group 2 - Cringe GPT" value="Group 2 - Cringe GPT">
           Group 2 - Cringe GPT
           </option>
-          <option key="Group 3 - Three's a Crowd" value="Group 3 - Three's a Crowd">
-          Group 3 - Three's a Crowd
+          <option key="Group 3 - Threes a Crowd" value="Group 3 - Threes a Crowd">
+          Group 3 - Threes a Crowd
           </option>
-          <option key="Group 4 - When Sat's Day Comes" value="Group 4 - When Sat's Day Comes">
-          Group 4 - When Sat's Day Comes
+          <option key="Group 4 - When Sats Day Comes" value="Group 4 - When Sats Day Comes">
+          Group 4 - When Sats Day Comes
           </option>
         </select>
 
