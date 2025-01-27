@@ -28,11 +28,18 @@
     "speakerLinkedin": "https://www.linkedin.com/in/tony-storr-b6958412/"
   },
   {
-    "speakerName": "Justin Ablett",
+    "speakerName": "Dan Bowes",
     "speakerImage": "",
-    "speakerBio": "Justin Ablett is the IBM iX Customer Transformation Lead for the UK and Ireland in IBM. He specialises in helping clients to improve customer experience and business outcomes, building and growing businesses.",
-    "speakerTitle": "IBM iX & Customer Transformation Lead for UKI in IBM Consulting",
-    "speakerLinkedin": "https://www.linkedin.com/in/justinablett/"
+    "speakerBio": "Dan works with leading brands to help them meet growing demands in the experience era. He has over a dozen years of experience in Marketing Transformation, particularly in Financial Services. Dan was the Marketing Strategic Lead at Santander UK helping them deliver great content and grow platform adoption from 100 to 3,000 users over three years. He is the proud owner of a prestigious Lion Award and a keynote speaker on the future of work, unlocking the power of content creation, and how to successfully transform a Marketing team. Dan made the switch to IBM iX in November 2021 where he has had great client success in growing IBM’s Adobe EMEA practice. He has a keen focus on supporting customers' scale Content Supply Chain across their organisation to achieve true work transformation.",
+    "speakerTitle": "",
+    "speakerLinkedin": "https://uk.linkedin.com/in/dan-bowes-26700373"
+  },
+  {
+    "speakerName": "Hugh Griffith",
+    "speakerImage": "",
+    "speakerBio": "Hugh Griffith joined IBM Consulting over 3 years ago as the UK and Ireland's first content designer. He now leads our content design practice, having grown this team to over 15 content designers working across a wide range of industries from public sector to the sports industry. Recently, he has been focusing on the impact GenAI will have on content and how IBM's clients can adopt it in their workflows",
+    "speakerTitle": "Associate Design Director at IBM iX",
+    "speakerLinkedin": "https://www.linkedin.com/in/hugh-griffith/"
   },
   {
     "speakerName": "Emma Flinter",
@@ -47,13 +54,6 @@
     "speakerBio": "Jez is a Partner at IBM and the leader of the Generative Al and Watsonx practice for the UK and Ireland, Jez stands at the forefront of digital and consumer transformation.\n\nHis expertise spans across luxury, FMCG, retail, and transportation, driving innovation and sustainability through analytics, Al, and technology.\n\nJeremy's passion for envisioning the future alongside clients and guiding them through transformational journeys has established him as a prominent figure in the Al community.\n\nHis contributions include securing a patent that enhances our understanding of consumer behaviour through city dynamics and showcasing his dedication to leveraging technology for better business performance and engagement.",
     "speakerTitle": "Partner - UKI Generative AI and watsonx leader",
     "speakerLinkedin": "https://www.linkedin.com/in/jeremybassinder/"
-  },
-  {
-    "speakerName": "Hugh Griffith",
-    "speakerImage": "",
-    "speakerBio": "Hugh Griffith joined IBM Consulting over 3 years ago as the UK and Ireland's first content designer. He now leads our content design practice, having grown this team to over 15 content designers working across a wide range of industries from public sector to the sports industry. Recently, he has been focusing on the impact GenAI will have on content and how IBM's clients can adopt it in their workflows",
-    "speakerTitle": "Associate Design Director at IBM iX",
-    "speakerLinkedin": "https://www.linkedin.com/in/hugh-griffith/"
   },
   {
     "speakerName": "Danny Bagge",
