@@ -128,17 +128,17 @@ const FormComponent: React.FC<FormProps> = ({ formType }) => {
             {event.sessionTime} - {event.sessionTitle}
             </option>
             ))} */}
-          <option key="Session A" value="Session A">
-            Session A - Test Session A
+          <option key="Group 1 - Boot Strapped Brains" value="Group 1 - Boot Strapped Brains">
+          Group 1 - Boot Strapped Brains
           </option>
-          <option key="Session B" value="Session B">
-          Session B - Test Session B
+          <option key="Group 2 - Cringe GPT" value="Group 2 - Cringe GPT">
+          Group 2 - Cringe GPT
           </option>
-          <option key="Session C" value="Session C">
-            Session C - Test Session C
+          <option key="Group 3 - Three's a Crowd" value="Group 3 - Three's a Crowd">
+          Group 3 - Three's a Crowd
           </option>
-          <option key="Session D" value="Session D">
-            Session D - Test Session D
+          <option key="Group 4 - When Sat's Day Comes" value="Group 4 - When Sat's Day Comes">
+          Group 4 - When Sat's Day Comes
           </option>
         </select>
 
